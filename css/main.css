@@ -168,7 +168,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #9053c7;
+  /* background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0); */
   background: linear-gradient(to bottom, #4cc9a6, #a4c56f, #d9c23d);
 }
 
@@ -185,11 +189,31 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  padding: 30px 130px 33px 95px;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
+
+.login-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-header img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.login-header h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4;
+}
+
 .login100-pic {
   width: 316px;
 }
@@ -468,5 +492,4 @@ iframe {
     visibility: visible;
     opacity: 1;
   }
-
 }
